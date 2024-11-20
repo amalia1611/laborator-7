@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title> Grupa 2117 semigrupa 2</title>
+       <link rel="stylesheet" href="index.css">
+      <script>
+        let slideIndex = 0;
+  
+        function showSlides() {
+          const slides = document.querySelectorAll(".slide");
+          slides.forEach((slide, index) => {
+            slide.style.display = "none";
+          });
+          slideIndex++;
+          if (slideIndex > slides.length) slideIndex = 1;
+          slides[slideIndex - 1].style.display = "block";
+          setTimeout(showSlides, 3000);
+        }
+  
+        document.addEventListener("DOMContentLoaded", showSlides);
+      </script>
+  </head>
+<body>
+    <p class="a">Lista cu colegii</p>
+
+    <div class="b">
+        <p><a href="tudor.html">Muresan Tudor </a></p>
+    </div>
+    <div class="c">
+    <p><a href="iuli.html"> Șuteu Iulian</a></p>
+    </div>
+    <div class="d">
+    <p><a href="diana.html"> Marcu Diana</a></p>
+    </div>
+    <div class="e">
+    <p><a href="amalia2.html"> Popescu Amalia</a></p>
+    </div>
+    <img class="pozaa" src="Mona_Lisa.jpg">
+</body>
+</html>

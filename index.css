@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(241, 193, 213);
+    }
+ .a{
+    font-family: Lucida Calligraphy;
+    font-size: 25px;
+    color:black;
+    text-decoration-line: underline ;
+    text-shadow: 2px 2px 5px rgb(210, 16, 74);
+    text-align: center;
+}  
+.b{
+    width: 50%;
+    border: 3px dotted purple;
+    font-family: Lucida Handwriting;
+    padding: 5px;
+    margin-top: 50px;
+}
+.c{
+    width: 50%;
+    border: 3px dashed rgb(240, 13, 183);
+    font-family: Lucida Handwriting;
+    padding: 5px;
+    margin-top: 10px;
+}
+.d{
+    width: 50%;
+    border: 3px dotted rgb(245, 132, 132);
+    font-family: Lucida Handwriting;
+    padding: 5px;
+    margin-top: 10px;
+}
+.e{
+    width: 50%;
+    border: 3px dashed rgb(180, 105, 117);
+    font-family:Lucida Handwriting ;
+    padding: 5px;
+    margin-top: 10px;
+}
+.pozaa{
+    margin-top:30px;
+    width:250px;
+    background-size:30px;
+    border:10px double brown;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 590px;
+}
